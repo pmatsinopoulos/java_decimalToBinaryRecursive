@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class DecimalToBinaryRecursive {
     /**
      * Given an integer N, its binary representation is
-     * the binary representation of N/2 suffixed with the module of N % 2
+     * the binary representation of N/2 suffixed with the modulo of N % 2
      */
     public static String toBinary(int integer) {
         if (integer <= 1) {
